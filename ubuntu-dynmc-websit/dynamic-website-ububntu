@@ -1,0 +1,30 @@
+ docker
+    2  ls
+    3  cd /var/www/html
+    6  cd
+    8  ls
+    9  exit
+   10  service apache2 start
+   11  apt-get install apache2 -y
+   12  apt-get update
+   13  apt-get install apache2 -y
+   14  ls
+   19  cat >>n.html
+   20  cat n.html
+   21  mv ./n.html /var/www/html
+   22  service apache2 start
+   26  apt-get install wget -y
+   27  apt-get install yum -y
+   29  wget https://www.free-css.com/assets/files/free-css-templates/download/page241/big-city.zip
+   30  ls
+   31  unzip big-city.zip
+   32  apt-get install unzip -y
+   33  unzip big-city.zip
+   34  ls
+   35  mv big-city /var/www/html
+   36  cd /var/www/html/
+   37  ls
+   38  cd
+   39  mv /var/www/html/n.html .
+   40  ls
+
